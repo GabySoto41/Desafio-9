@@ -1,0 +1,224 @@
+
+@media screen and (max-width:768px){      
+
+    nav{
+
+        ul{
+            
+            .nav-item{
+                font-size: medium;
+            }
+        }
+
+        .d-flex{
+
+            font-size: medium;
+        }
+    }
+
+    main{
+
+        .mainWhat{
+            display: none;
+        }
+
+        .what{
+            position: fixed;
+            top: 30px;
+            right: 60px;
+            z-index: 10;
+        }   
+
+        a{
+            .what_img{
+                height: 60px;
+                width: 60px;
+            }
+        }
+    
+        .h3{
+            font-size: medium;
+        }
+
+        .titulos{
+            font-size: medium;
+        }
+
+        .parrafo_color{
+            font-size: medium;
+        }
+
+        section{
+
+            .card{
+                width: 15rem;
+            }
+
+            .card-body{
+                font-size: medium;
+                width: 15rem;
+            }
+
+            img{
+                .foto_p{
+                    width: 15rem;
+                    height: 20rem;
+                }
+            }
+
+            .card-title{
+                font-size: medium;
+            }
+
+            a {
+                .btn{
+                    font-size: medium;
+                }
+            }
+        }
+    } 
+
+    footer{
+
+        h4{
+            font-size: medium;
+        }
+
+        p{
+            font-size: medium;
+        }
+    }
+}
+            
+@media screen and (max-width:425px){
+
+    header{
+
+        .lg{
+            background-color: black;
+        }
+        .logo_pag{
+            height: auto;
+            width: 90vw;
+        }
+
+        .header_div_video{
+            display: none;
+        }
+
+        .what_img{
+            height: 30px;
+            width: 30px;
+        }
+
+        nav{
+
+            a{
+                .logo_nav{
+                    width: 40px;
+                    height: 30px;
+                }
+            }
+
+            ul{
+                .nav-item{
+                    font-size: small;
+                }
+            }
+
+            .d-flex{
+                font-size: small;
+            }
+        }
+    }
+    
+    main{
+
+        .h3{
+            font-size: small;
+        }
+        
+        .titulos{
+            font-size: small;
+        }
+
+        .parrafo_color{
+            font-size: small;
+        }
+            
+        section{
+
+                .card{
+                    width: 15rem;
+                }
+                
+                .card_index{
+                    &:hover{
+                        transform: inherit;
+                    }
+                }
+
+                .card-body{
+                    font-size: small;
+                    width: 15rem;
+                }
+
+                .card-title{
+                    font-size: small;
+                }
+
+                img{
+                    .foto_p{
+                        height: 30rem;
+                    }
+                }
+
+                .btn{
+                    font-size: small;
+                }
+        }
+    }
+
+    footer{
+
+            h4{
+                font-size: small;
+            }
+            
+            p{
+            font-size: small;
+            }
+    }
+}
+
+@media screen and (min-width:426px){
+
+    header{
+        .lg{
+            display: none;
+        }
+    }
+}
+    
+@media screen and (min-width:769px){
+     
+    main{
+        .what{
+            display: none;
+        }
+    }   
+}           
+
+          
+            
+        
+            
+            
+            
+            
+            
+            
+            
+    
+           
+          

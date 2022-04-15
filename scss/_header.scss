@@ -1,0 +1,49 @@
+
+header{
+
+    .header_div_video{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        background-color: $colorFondo;
+    }
+
+    .header_video{
+        height: 50vh;
+        width: 99vw;
+    }
+    
+    .navbar{
+        border: 2px solid whitesmoke;
+    }
+
+    nav{
+    
+        a{
+            .logo_nav{    
+                width: 80px;
+                height: 60px;
+            }
+        }
+    
+        .navbar-nav{
+            padding:0 10px;
+        }
+
+        ul{
+            .nav-item{
+                font-family: "Oswald";
+                font-size: large;
+                padding: 10px;
+                margin:0 40px;
+            }   
+        }
+
+        .d-flex{
+            font-family: "Oswald";
+            font-size: large;
+        }
+    } 
+    
+}

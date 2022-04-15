@@ -1,0 +1,84 @@
+
+$colorFondo: black;
+
+/* MAP */
+
+/* Botones de Productos Index */
+
+$botones: (
+
+    btn1: #ffe259,
+    btn2: #ffa751,
+    btn3: #f7797d,
+    btn4: #f12711,
+);
+
+@each $btn, $color in $botones {
+
+    .#{$btn} {
+        background-color: $color;
+    }
+}
+
+/* MAP GET */
+
+/* footer */
+
+$prueba: (
+
+    borde: 2px solid whitesmoke,
+    letra: "Oswald",
+    tipo: bold,
+    colorfondo: #ffa751,
+    colorletra: black,
+);
+
+footer {
+
+    background-color: map-get($prueba, colorfondo);
+    font-family: map-get($prueba, letra);
+    color: map-get($prueba, colorletra);
+    border: map-get($prueba, borde);
+    font-weight: map-get($prueba, tipo);
+}
+
+/* EXTEND */
+
+/* h3 Main Index */
+
+.h3{
+
+    margin: 30px;
+    padding: 30px;
+    font-family: "Oswald";
+    font-size: x-large;
+    font-weight: 600;
+    border: 2px solid whitesmoke;
+    background-color: $colorFondo;
+    color: whitesmoke;
+}
+
+.h3_version{
+
+    @extend .h3;
+    color: #C6FFDD;
+
+}
+
+/* MIXIN */
+
+/* logo redes footer  Index */
+
+@mixin tama_logo ($ancho,$alto) {
+
+    width: $ancho;
+    height: $alto;
+}
+
+.redes{
+
+    @include tama_logo(34px,35px)
+}
+
+
+

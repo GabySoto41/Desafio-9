@@ -1,0 +1,283 @@
+/* MAP */
+/* Botones de Productos Index */
+.btn1 {
+  background-color: #ffe259; }
+
+.btn2 {
+  background-color: #ffa751; }
+
+.btn3 {
+  background-color: #f7797d; }
+
+.btn4 {
+  background-color: #f12711; }
+
+/* MAP GET */
+/* footer */
+footer {
+  background-color: #ffa751;
+  font-family: "Oswald";
+  color: black;
+  border: 2px solid whitesmoke;
+  font-weight: bold; }
+
+/* EXTEND */
+/* h3 Main Index */
+.h3, .h3_version {
+  margin: 30px;
+  padding: 30px;
+  font-family: "Oswald";
+  font-size: x-large;
+  font-weight: 600;
+  border: 2px solid whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
+
+.h3_version {
+  color: #C6FFDD; }
+
+/* MIXIN */
+/* logo redes footer  Index */
+.redes {
+  width: 34px;
+  height: 35px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.container-fluid {
+  margin: 0; }
+
+header .header_div_video {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black; }
+
+header .header_video {
+  height: 50vh;
+  width: 99vw; }
+
+header .navbar {
+  border: 2px solid whitesmoke; }
+
+header nav a .logo_nav {
+  width: 80px;
+  height: 60px; }
+
+header nav .navbar-nav {
+  padding: 0 10px; }
+
+header nav ul .nav-item {
+  font-family: "Oswald";
+  font-size: large;
+  padding: 10px;
+  margin: 0 40px; }
+
+header nav .d-flex {
+  font-family: "Oswald";
+  font-size: large; }
+
+.main_index {
+  font-family: "Oswald";
+  padding-bottom: 20px;
+  background-image: url(../Imagenes/fotos/12.JPG);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+main .mainWhat {
+  background-color: black;
+  font-family: "Oswald";
+  color: white;
+  position: fixed;
+  z-index: 400;
+  top: 50px;
+  right: 70px;
+  padding: 10px;
+  text-decoration: none;
+  border: 3px solid whitesmoke; }
+
+main a .main_a_img {
+  height: 40px;
+  width: 40px; }
+
+main .titulos {
+  text-align: center; }
+
+main .h3, main .h3_version {
+  margin: 30px;
+  padding: 30px;
+  font-family: "Oswald";
+  font-size: x-large;
+  font-weight: 600;
+  border: 2px solid whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
+
+main .h3_version {
+  color: #C6FFDD; }
+
+main .carousel .carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+main .carousel .carousel-item {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 50px; }
+
+main .parrafo_color {
+  color: whitesmoke;
+  background-color: black;
+  border: 2px solid whitesmoke;
+  margin: 30px;
+  padding: 30px;
+  font-family: "Oswald";
+  font-size: x-large;
+  text-align: justify; }
+
+main .sec_index {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  padding: 2rem; }
+
+main section .card {
+  margin: 2rem;
+  width: 25rem; }
+
+main section .card_index {
+  transition: all 3s; }
+  main section .card_index:hover {
+    transform: rotate(360deg); }
+
+main section img .foto_p {
+  height: 30rem; }
+
+main section .card-body {
+  text-align: center;
+  border: 2px dashed whitesmoke;
+  background-color: black;
+  color: whitesmoke; }
+
+footer {
+  /* font-family: "Oswald";
+    color: whitesmoke;
+    background-color: $colorFondo; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */ }
+  footer h4 {
+    padding: 20px;
+    text-align: center; }
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    column-gap: 50px; }
+  footer li {
+    display: inline-block; }
+    footer li a .redes {
+      /* height: 35px;
+                width: 34px; */
+      background-color: black; }
+  footer p {
+    padding: 20px;
+    text-align: center; }
+
+@media screen and (max-width: 768px) {
+  nav ul .nav-item {
+    font-size: medium; }
+  nav .d-flex {
+    font-size: medium; }
+  main .mainWhat {
+    display: none; }
+  main .what {
+    position: fixed;
+    top: 30px;
+    right: 60px;
+    z-index: 10; }
+  main a .what_img {
+    height: 60px;
+    width: 60px; }
+  main .h3, main .h3_version {
+    font-size: medium; }
+  main .titulos {
+    font-size: medium; }
+  main .parrafo_color {
+    font-size: medium; }
+  main section .card {
+    width: 15rem; }
+  main section .card-body {
+    font-size: medium;
+    width: 15rem; }
+  main section img .foto_p {
+    width: 15rem;
+    height: 20rem; }
+  main section .card-title {
+    font-size: medium; }
+  main section a .btn {
+    font-size: medium; }
+  footer h4 {
+    font-size: medium; }
+  footer p {
+    font-size: medium; } }
+
+@media screen and (max-width: 425px) {
+  header .lg {
+    background-color: black; }
+  header .logo_pag {
+    height: auto;
+    width: 90vw; }
+  header .header_div_video {
+    display: none; }
+  header .what_img {
+    height: 30px;
+    width: 30px; }
+  header nav a .logo_nav {
+    width: 40px;
+    height: 30px; }
+  header nav ul .nav-item {
+    font-size: small; }
+  header nav .d-flex {
+    font-size: small; }
+  main .h3, main .h3_version {
+    font-size: small; }
+  main .titulos {
+    font-size: small; }
+  main .parrafo_color {
+    font-size: small; }
+  main section .card {
+    width: 15rem; }
+  main section .card_index:hover {
+    transform: inherit; }
+  main section .card-body {
+    font-size: small;
+    width: 15rem; }
+  main section .card-title {
+    font-size: small; }
+  main section img .foto_p {
+    height: 30rem; }
+  main section .btn {
+    font-size: small; }
+  footer h4 {
+    font-size: small; }
+  footer p {
+    font-size: small; } }
+
+@media screen and (min-width: 426px) {
+  header .lg {
+    display: none; } }
+
+@media screen and (min-width: 769px) {
+  main .what {
+    display: none; } }
